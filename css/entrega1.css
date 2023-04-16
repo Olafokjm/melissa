@@ -39,3 +39,6 @@
     grid-row-end: 3;
 }
 
+.modal-header{
+    height: 60px;
+}
