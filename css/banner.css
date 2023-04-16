@@ -1,0 +1,15 @@
+.banner-bg{
+    background: url(../img/soloio1.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 -80px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.banner-bg h1{
+    margin-left: 100px;
+    color: #fff;
+    text-shadow: 2px 2px 5px #0074d9;
+}

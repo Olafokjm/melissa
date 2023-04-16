@@ -1,0 +1,16 @@
+.nav-link{
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.nav-link:hover{
+    background-color: #fff;
+    color: #0074d9;
+    transition: 1s ease;
+}
+
+.right{
+    justify-content: flex-end;
+}
