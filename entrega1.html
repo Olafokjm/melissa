@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/acerca.css">
     <link rel="stylesheet" href="css/entrega1.css">
     <title>Entrega 1</title>
 </head>
@@ -61,7 +60,7 @@
                 <h1 class="text-center">Entrega 1</h1>
                 <div class="acuerdo">
                     <div class="item one">
-                        <a href="">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#anteproyecto">
                             <img src="img/anteproyecto.png" alt="">
                         </a>
                         <h2>Anteproyecto</h2>
@@ -77,6 +76,23 @@
                             <img src="img/crnograma actividaes.jpg" alt="">  
                         </a>
                         <h2>Cronograma de actividades</h2>                  
+                    </div>
+                </div>
+                <!--MODAL-->
+                <div class="modal fade" id="anteproyecto" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="ModalLabel">Anteproyecto</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe src="docs/Seleccion de producto.pdf" style="width:100%; height: 100%;" frameborder="0" ></iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
