@@ -1,3 +1,21 @@
-a{
+.list-group a{
  text-decoration: none;
+ font-size: 1.5rem;
 } 
+
+.list-group{
+    margin: 100px;
+}
+
+.acuerdo{
+    padding: 30px;
+}
+
+.acuerdo .card{
+    margin: 20px auto;
+}
+
+.acuerdo .card img{
+    width: 120px;
+    margin: 0 auto;
+}
