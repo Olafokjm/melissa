@@ -4,9 +4,16 @@
 
 .card{
     margin: 20px auto;
+    width: 80%;
 }
 
 .card img{
     width: 120px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 680px){ 
+    .card{
+        width: 100%;
+    }
 }

@@ -42,3 +42,12 @@
 .modal-header{
     height: 60px;
 }
+
+@media screen and (max-width: 680px){ 
+    .acuerdo{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
+}
