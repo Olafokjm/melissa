@@ -1,0 +1,24 @@
+.brochure img,
+.carousel-item img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.brochure:hover{
+    opacity: 0.6;
+}
+
+.brochure, .slider{
+    margin: 10px;
+    width: 50%;
+}
+
+@media screen and (max-width: 720px){ 
+    .brochure, .slider{
+        width: 100%;
+    }
+
+    .box{
+        flex-wrap: wrap;
+    }
+}
